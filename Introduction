@@ -1,0 +1,28 @@
+# Hello World!
+print('Hello World!')
+
+# Variables
+a=22
+b="String"
+print(a , b)
+
+# Multiline String
+a="""This is a
+multiline
+string"""
+print(a)
+
+#Input function
+name=input("Enter name : ")
+print("Hello", name)
+
+# Returning int value from input function
+a=int(input())
+b=12
+print(a+b)
+
+# Basic operations 
+first='Pratham'
+second='Khandelwal'
+result=first+' '+second
+print(result)
