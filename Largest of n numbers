@@ -1,0 +1,12 @@
+n=int(input('Value of n : '))
+li=[]
+for i in range(0,n):
+    x=int(input('Enter number : '))
+    li.append(x)
+    i+=1    
+max=li[0]
+for i in range(1,n):
+    if li[i]>max:
+        max=li[i]
+    i+=1
+print('Largest number is : ',max)    
