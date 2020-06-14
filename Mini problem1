@@ -1,0 +1,4 @@
+# This code reads your name and returns first alphabet of it.
+name = input()
+ans = list(name)
+print(ans[0])
