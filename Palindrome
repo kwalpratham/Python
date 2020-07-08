@@ -1,0 +1,10 @@
+inp = input()
+li = list(inp)
+count = 0
+for x in range(len(li) // 2):
+    if li[x] == li[-x - 1]:
+        count += 1
+if count == len(li) / 2:
+    print('Palindrome')
+else:
+    print('Not palindrome')
