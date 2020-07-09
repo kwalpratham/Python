@@ -1,0 +1,7 @@
+# Creating a list of all natural prime numbers upto n
+n = int(input())
+prime_numbers = [2]
+for i in range(3, n + 1):
+    if all([i % j for j in range(2, i)]):
+        prime_numbers.append(i)
+Answer = prime_numbers 
